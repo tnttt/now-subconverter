@@ -23,7 +23,7 @@ ruleset=Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Pro
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,[]GEOIP,CN
-ruleset=MATCH,Proxy
+ruleset=Proxy,[]FINAL
 
 custom_proxy_group=Proxy`select`[]DIRECT`.*
 
