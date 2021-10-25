@@ -1,268 +1,268 @@
 #dns
-- IP-CIDR,1.1.1.1/32
-- IP-CIDR,1.0.0.1/32
-- IP-CIDR,8.8.8.8/32
-- DOMAIN,dns.google
+IP-CIDR,1.1.1.1/32
+IP-CIDR,1.0.0.1/32
+IP-CIDR,8.8.8.8/32
+DOMAIN,dns.google
 
 # hot fix
-- DOMAIN,services.googleapis.cn
-- DOMAIN,googleapis.cn
-- DOMAIN-SUFFIX,ping.pe
-- DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN,services.googleapis.cn
+DOMAIN,googleapis.cn
+DOMAIN-SUFFIX,ping.pe
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 # common site
-- DOMAIN,ifconfig.me
-- DOMAIN,services.googleapis.cn
-- DOMAIN,google.com
-- DOMAIN-SUFFIX,google.cn
-- DOMAIN-SUFFIX,googleapis.cn
-- DOMAIN-KEYWORD,facebook
-- DOMAIN-SUFFIX,fb.me
-- DOMAIN-KEYWORD,gmail
-- DOMAIN-KEYWORD,twitter
-- DOMAIN-KEYWORD,instagram
-- DOMAIN-SUFFIX,twimg.com
-- DOMAIN-KEYWORD,blogspot
-- DOMAIN-KEYWORD,whatsapp
-- DOMAIN-KEYWORD,scholar
-- DOMAIN-KEYWORD,glados
-- DOMAIN-KEYWORD,wikipedia
-- DOMAIN-SUFFIX,google.com
-- DOMAIN-SUFFIX,facebook.com
-- DOMAIN-SUFFIX,yahoo.com
-- DOMAIN-SUFFIX,amazon.com
-- DOMAIN-SUFFIX,vk.com
-- DOMAIN-SUFFIX,reddit.com
-- DOMAIN-SUFFIX,live.com
-- DOMAIN-SUFFIX,zoom.us
-- DOMAIN-SUFFIX,wikipedia.org
-- DOMAIN-SUFFIX,myshopify.com
-- DOMAIN-SUFFIX,instagram.com
-- DOMAIN-SUFFIX,okezone.com
-- DOMAIN-SUFFIX,office.com
-- DOMAIN-SUFFIX,ebay.com
-- DOMAIN-SUFFIX,bongacams.com
-- DOMAIN-SUFFIX,blogspot.com
-- DOMAIN-SUFFIX,yahoo.co.jp
-- DOMAIN-SUFFIX,babytree.com
-- DOMAIN-SUFFIX,amazon.co.jp
-- DOMAIN-SUFFIX,adobe.com
-- DOMAIN-SUFFIX,livejasmin.com
-- DOMAIN-SUFFIX,stackoverflow.com
-- DOMAIN-SUFFIX,dropbox.com
-- DOMAIN-SUFFIX,msn.com
-- DOMAIN-SUFFIX,yandex.ru
-- DOMAIN-SUFFIX,linkedin.com
-- DOMAIN-SUFFIX,twitter.com
-- DOMAIN-SUFFIX,imgur.com
-- DOMAIN-SUFFIX,amazonaws.com
-- DOMAIN-SUFFIX,imdb.com
-- DOMAIN-SUFFIX,whatsapp.com
-- DOMAIN-SUFFIX,google.co.jp
-- DOMAIN-SUFFIX,trello.com
-- DOMAIN-SUFFIX,wordpress.com
-- DOMAIN-SUFFIX,nytimes.com
-- DOMAIN-SUFFIX,spotify.com
+DOMAIN,ifconfig.me
+DOMAIN,services.googleapis.cn
+DOMAIN,google.com
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,scholar
+DOMAIN-KEYWORD,glados
+DOMAIN-KEYWORD,wikipedia
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,myshopify.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,okezone.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,bongacams.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,babytree.com
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,livejasmin.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,wordpress.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,spotify.com
 
 # Video
-- DOMAIN,ip.sb
-- DOMAIN-KEYWORD,youtube
-- DOMAIN-SUFFIX,youtu.be
-- DOMAIN-SUFFIX,googlevideo.com
-- DOMAIN-SUFFIX,ytimg.com
-- DOMAIN-SUFFIX,googleusercontent.com
-- DOMAIN-KEYWORD,twitch
+DOMAIN,ip.sb
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-KEYWORD,twitch
 
 #NETFLIX
-- DOMAIN-SUFFIX,netflix.com
-- DOMAIN-SUFFIX,netflix.net
-- DOMAIN-SUFFIX,nflxext.com
-- DOMAIN-SUFFIX,nflximg.com
-- DOMAIN-SUFFIX,nflximg.net
-- DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
 #Fast.com
-- DOMAIN-SUFFIX,oca.nflxvideo.net
-- DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,oca.nflxvideo.net
+DOMAIN-SUFFIX,nflxvideo.net
 
 # > ABC
-- DOMAIN-SUFFIX,edgedatg.com
-- DOMAIN-SUFFIX,go.com
+DOMAIN-SUFFIX,edgedatg.com
+DOMAIN-SUFFIX,go.com
 
 # > AbemaTV
-- DOMAIN,linear-abematv.akamaized.net
-- DOMAIN-SUFFIX,abema.io
-- DOMAIN-SUFFIX,abema.tv
-- DOMAIN-SUFFIX,akamaized.net
-- DOMAIN-SUFFIX,ameba.jp
-- DOMAIN-SUFFIX,hayabusa.io
+DOMAIN,linear-abematv.akamaized.net
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,hayabusa.io
 
 # > Amazon Prime Proxy
-- DOMAIN-SUFFIX,aiv-cdn.net
-- DOMAIN-SUFFIX,amazonaws.com
-- DOMAIN-SUFFIX,amazonvideo.com
-- DOMAIN-SUFFIX,llnwd.net
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,llnwd.net
 
 # > Bahamut
-- DOMAIN-SUFFIX,bahamut.com.tw
-- DOMAIN-SUFFIX,gamer.com.tw
-- DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,hinet.net
 
 # > BBC
-- DOMAIN-KEYWORD,bbcfmt
-- DOMAIN-KEYWORD,co.uk
-- DOMAIN-KEYWORD,uk-live
-- DOMAIN-SUFFIX,bbc.co
-- DOMAIN-SUFFIX,bbc.co.uk
-- DOMAIN-SUFFIX,bbc.com
-- DOMAIN-SUFFIX,bbci.co
-- DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,co.uk
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
 
 # > CHOCO TV
-- DOMAIN-SUFFIX,chocotv.com.tw
+DOMAIN-SUFFIX,chocotv.com.tw
 
 # > Epicgames
-- DOMAIN-KEYWORD,epicgames
-- DOMAIN-SUFFIX,helpshift.com
+DOMAIN-KEYWORD,epicgames
+DOMAIN-SUFFIX,helpshift.com
 
 # > Fox+
-- DOMAIN-KEYWORD,foxplus
-- DOMAIN-SUFFIX,config.fox.com
-- DOMAIN-SUFFIX,emome.net
-- DOMAIN-SUFFIX,fox.com
-- DOMAIN-SUFFIX,foxdcg.com
-- DOMAIN-SUFFIX,foxnow.com
-- DOMAIN-SUFFIX,foxplus.com
-- DOMAIN-SUFFIX,foxplay.com
-- DOMAIN-SUFFIX,ipinfo.io
-- DOMAIN-SUFFIX,mstage.io
-- DOMAIN-SUFFIX,now.com
-- DOMAIN-SUFFIX,theplatform.com
-- DOMAIN-SUFFIX,urlload.net
+DOMAIN-KEYWORD,foxplus
+DOMAIN-SUFFIX,config.fox.com
+DOMAIN-SUFFIX,emome.net
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,foxnow.com
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,foxplay.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,mstage.io
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,urlload.net
 
 # > HBO && HBO Go
-- DOMAIN-SUFFIX,amazonaws.com
-- DOMAIN-SUFFIX,hbo.com
-- DOMAIN-SUFFIX,hboasia.com
-- DOMAIN-SUFFIX,hbogo.com
-- DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.hk
 
 # > Hulu
-- DOMAIN-SUFFIX,happyon.jp
-- DOMAIN-SUFFIX,hulu.com
-- DOMAIN-SUFFIX,huluim.com
-- DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
 
 # > Imkan
-- DOMAIN-SUFFIX,imkan.tv
+DOMAIN-SUFFIX,imkan.tv
 
 # > JOOX
-- DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,joox.com
 
 # > MytvSUPER
-- DOMAIN-KEYWORD,nowtv100
-- DOMAIN-KEYWORD,rthklive
-- DOMAIN-SUFFIX,mytvsuper.com
-- DOMAIN-SUFFIX,tvb.com
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
 
 # > Pandora
-- DOMAIN-SUFFIX,pandora.com
+DOMAIN-SUFFIX,pandora.com
 
 # > Sky GO
-- DOMAIN-SUFFIX,sky.com
-- DOMAIN-SUFFIX,skygo.co.nz
+DOMAIN-SUFFIX,sky.com
+DOMAIN-SUFFIX,skygo.co.nz
 
 # > Spotify
-- DOMAIN-KEYWORD,spotify
-- DOMAIN-SUFFIX,scdn.co
-- DOMAIN-SUFFIX,spoti.fi
+DOMAIN-KEYWORD,spotify
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
 
 # > viuTV
-- DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,viu.tv
 
 # > Youtube
-- DOMAIN-KEYWORD,youtube
-- DOMAIN-SUFFIX,googlevideo.com
-- DOMAIN-SUFFIX,gvt2.com
-- DOMAIN-SUFFIX,youtu.be
-- DOMAIN-SUFFIX,youtu.be
-- DOMAIN-SUFFIX,yt.be
-- DOMAIN-SUFFIX,ytimg.com
-- DOMAIN-KEYWORD,pornhub
-- DOMAIN-KEYWORD,porn
-- DOMAIN-KEYWORD,phncdn
-- DOMAIN-SUFFIX,vimeo.com
-- DOMAIN-SUFFIX,vimeocdn.com
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,pornhub
+DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,phncdn
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,vimeocdn.com
 
-- DOMAIN-SUFFIX,v2ex.com
-- DOMAIN-KEYWORD,gitlab
-- DOMAIN-KEYWORD,github
-- DOMAIN-KEYWORD,stackoverflow.com
-- DOMAIN-SUFFIX,pinboard.in
-- DOMAIN-SUFFIX,techcrunch.com
-- DOMAIN-SUFFIX,trello.com
-- DOMAIN-SUFFIX,techsmith.com
-- DOMAIN-SUFFIX,thepiratebay.org
-- DOMAIN-SUFFIX,pinterest.com
-- DOMAIN-SUFFIX,yacd.haishan.me
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-KEYWORD,gitlab
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,stackoverflow.com
+DOMAIN-SUFFIX,pinboard.in
+DOMAIN-SUFFIX,techcrunch.com
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,techsmith.com
+DOMAIN-SUFFIX,thepiratebay.org
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,yacd.haishan.me
 
-- DOMAIN-SUFFIX,abc.xyz
-- DOMAIN-SUFFIX,android.com
-- DOMAIN-SUFFIX,androidify.com
-- DOMAIN-SUFFIX,dialogflow.com
-- DOMAIN-SUFFIX,autodraw.com
-- DOMAIN-SUFFIX,capitalg.com
-- DOMAIN-SUFFIX,certificate-transparency.org
-- DOMAIN-SUFFIX,chrome.com
-- DOMAIN-SUFFIX,chromeexperiments.com
-- DOMAIN-SUFFIX,chromestatus.com
-- DOMAIN-SUFFIX,chromium.org
-- DOMAIN-SUFFIX,creativelab5.com
-- DOMAIN-SUFFIX,debug.com
-- DOMAIN-SUFFIX,deepmind.com
-- DOMAIN-SUFFIX,firebaseio.com
-- DOMAIN-SUFFIX,getmdl.io
-- DOMAIN-SUFFIX,ggpht.com
-- DOMAIN-SUFFIX,gmail.com
-- DOMAIN-SUFFIX,gmodules.com
-- DOMAIN-SUFFIX,godoc.org
-- DOMAIN-SUFFIX,golang.org
-- DOMAIN-SUFFIX,gstatic.com
-- DOMAIN-SUFFIX,gv.com
-- DOMAIN-SUFFIX,gwtproject.org
-- DOMAIN-SUFFIX,itasoftware.com
-- DOMAIN-SUFFIX,madewithcode.com
-- DOMAIN-SUFFIX,material.io
-- DOMAIN-SUFFIX,polymer-project.org
-- DOMAIN-SUFFIX,admin.recaptcha.net
-- DOMAIN-SUFFIX,recaptcha.net
-- DOMAIN-SUFFIX,shattered.io
-- DOMAIN-SUFFIX,synergyse.com
-- DOMAIN-SUFFIX,tensorflow.org
-- DOMAIN-SUFFIX,tiltbrush.com
-- DOMAIN-SUFFIX,waveprotocol.org
-- DOMAIN-SUFFIX,waymo.com
-- DOMAIN-SUFFIX,webmproject.org
-- DOMAIN-SUFFIX,webrtc.org
-- DOMAIN-SUFFIX,whatbrowser.org
-- DOMAIN-SUFFIX,widevine.com
-- DOMAIN-SUFFIX,x.company
-- DOMAIN-KEYWORD,google
-- DOMAIN-SUFFIX,github.com
-- DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,androidify.com
+DOMAIN-SUFFIX,dialogflow.com
+DOMAIN-SUFFIX,autodraw.com
+DOMAIN-SUFFIX,capitalg.com
+DOMAIN-SUFFIX,certificate-transparency.org
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromeexperiments.com
+DOMAIN-SUFFIX,chromestatus.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,creativelab5.com
+DOMAIN-SUFFIX,debug.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,getmdl.io
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gmodules.com
+DOMAIN-SUFFIX,godoc.org
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gv.com
+DOMAIN-SUFFIX,gwtproject.org
+DOMAIN-SUFFIX,itasoftware.com
+DOMAIN-SUFFIX,madewithcode.com
+DOMAIN-SUFFIX,material.io
+DOMAIN-SUFFIX,polymer-project.org
+DOMAIN-SUFFIX,admin.recaptcha.net
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,shattered.io
+DOMAIN-SUFFIX,synergyse.com
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,tiltbrush.com
+DOMAIN-SUFFIX,waveprotocol.org
+DOMAIN-SUFFIX,waymo.com
+DOMAIN-SUFFIX,webmproject.org
+DOMAIN-SUFFIX,webrtc.org
+DOMAIN-SUFFIX,whatbrowser.org
+DOMAIN-SUFFIX,widevine.com
+DOMAIN-SUFFIX,x.company
+DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
 
 # Fastly
-- IP-CIDR,23.235.32.0/20
-- IP-CIDR,43.249.72.0/22
-- IP-CIDR,103.244.50.0/24
-- IP-CIDR,167.82.160.0/20
-- IP-CIDR,167.82.128.0/20
-- IP-CIDR,167.82.0.0/17
-- IP-CIDR,157.52.64.0/18
-- IP-CIDR,167.82.224.0/20
-- IP-CIDR,172.111.64.0/18
-- IP-CIDR,185.31.16.0/22
-- IP-CIDR,199.27.72.0/21
-- IP-CIDR,151.101.0.0/16
-- IP-CIDR,104.156.80.0/20
-- IP-CIDR,103.245.224.0/24
-- IP-CIDR,103.245.222.0/23
+IP-CIDR,23.235.32.0/20
+IP-CIDR,43.249.72.0/22
+IP-CIDR,103.244.50.0/24
+IP-CIDR,167.82.160.0/20
+IP-CIDR,167.82.128.0/20
+IP-CIDR,167.82.0.0/17
+IP-CIDR,157.52.64.0/18
+IP-CIDR,167.82.224.0/20
+IP-CIDR,172.111.64.0/18
+IP-CIDR,185.31.16.0/22
+IP-CIDR,199.27.72.0/21
+IP-CIDR,151.101.0.0/16
+IP-CIDR,104.156.80.0/20
+IP-CIDR,103.245.224.0/24
+IP-CIDR,103.245.222.0/23
