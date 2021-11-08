@@ -1,0 +1,11 @@
+[custom]
+ruleset=DIRECT,https://raw.githubusercontent.com/Ooui/now-subconverter/master/ACdirect.list
+ruleset=REJECT,https://raw.githubusercontent.com/Ooui/now-subconverter/master/Hijacking.list
+ruleset=Proxy,https://raw.githubusercontent.com/Ooui/now-subconverter/master/ACproxy.list
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=Proxy,[]MATCH
+
+custom_proxy_group=Proxy`select`[]DIRECT`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
