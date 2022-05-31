@@ -1,6 +1,6 @@
-#subconverter remote config
+# Subconverter remote config
 jsdeliver
-[https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/file]
+(https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/file)
 
 # now-subconverter
 
