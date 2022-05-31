@@ -2,7 +2,7 @@
 
 # jsdeliver
 
-https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/file
+https://cdn.jsdelivr.net/gh/Ooui/now-subconverter@master/file
 
 # now-subconverter
 
