@@ -1,17 +1,32 @@
-#dns
+# dns
 IP-CIDR,1.1.1.1/32
 IP-CIDR,1.0.0.1/32
 IP-CIDR,8.8.8.8/32
 DOMAIN,dns.google
 
+# debug
+DOMAIN,ip.sb
+DOMAIN,myip.ipip.net
+DOMAIN,ifconfig.me
+
 # hot fix
+DOMAIN-KEYWORD,scholar
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,akam
 DOMAIN,services.googleapis.cn
 DOMAIN,googleapis.cn
 DOMAIN-SUFFIX,ping.pe
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,f2pool.com
+DOMAIN-SUFFIX,static.wikia.nocookie.net
+
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
 
 # common site
-DOMAIN,ifconfig.me
 DOMAIN,services.googleapis.cn
 DOMAIN,google.com
 DOMAIN-SUFFIX,google.cn
@@ -24,7 +39,6 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,scholar
 DOMAIN-KEYWORD,glados
 DOMAIN-KEYWORD,wikipedia
 DOMAIN-SUFFIX,google.com
@@ -64,9 +78,29 @@ DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,spotify.com
 
+#crypto
+DOMAIN-SUFFIX,bitbank.cc
+DOMAIN-SUFFIX,bitcoin.org
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitmex.com
+DOMAIN-SUFFIX,bitquick.co
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bittrex.com
+DOMAIN-SUFFIX,btcbox.co.jp
+DOMAIN-SUFFIX,cex.io
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,dogecoin.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,coinex.com
+DOMAIN-SUFFIX,paxful.com
+
 # Video
-DOMAIN,ip.sb
 DOMAIN-KEYWORD,youtube
+DOMAIN,dayi.com
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,ytimg.com
@@ -74,15 +108,79 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-KEYWORD,twitch
 
 #NETFLIX
+DOMAIN-KEYWORD,netflix
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
+DOMAIN-KEYWORD,dualstack.apiproxy-
+DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-SUFFIX,netflix.com.edgesuite.net
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,ichnaea-web-
+DOMAIN,netflix.com.edgesuite.net
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+
+# > Fox+
+DOMAIN-KEYWORD,foxplus
+DOMAIN-SUFFIX,config.fox.com
+DOMAIN-SUFFIX,emome.net
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,foxnow.com
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,foxplay.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,mstage.io
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,urlload.net
+
+# > HBO && HBO Go
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.hk
+
+# > Hulu
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+
 #Fast.com
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,oca.nflxvideo.net
 DOMAIN-SUFFIX,nflxvideo.net
+
+DOMAIN,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,bam.nr-data.net
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,cws.conviva.com
+DOMAIN-SUFFIX,d9.flashtalking.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN-SUFFIX,disney.my.sentry.io
+DOMAIN-SUFFIX,disneyplus.bn5x.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,js-agent.newrelic.com
 
 # > ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -96,7 +194,7 @@ DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 
-# > Amazon Prime Proxy
+# > Amazon Prime Video
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
@@ -123,34 +221,6 @@ DOMAIN-SUFFIX,chocotv.com.tw
 # > Epicgames
 DOMAIN-KEYWORD,epicgames
 DOMAIN-SUFFIX,helpshift.com
-
-# > Fox+
-DOMAIN-KEYWORD,foxplus
-DOMAIN-SUFFIX,config.fox.com
-DOMAIN-SUFFIX,emome.net
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,foxnow.com
-DOMAIN-SUFFIX,foxplus.com
-DOMAIN-SUFFIX,foxplay.com
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,mstage.io
-DOMAIN-SUFFIX,now.com
-DOMAIN-SUFFIX,theplatform.com
-DOMAIN-SUFFIX,urlload.net
-
-# > HBO && HBO Go
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogoasia.hk
-
-# > Hulu
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
 
 # > Imkan
 DOMAIN-SUFFIX,imkan.tv
@@ -193,9 +263,12 @@ DOMAIN-KEYWORD,phncdn
 DOMAIN-SUFFIX,vimeo.com
 DOMAIN-SUFFIX,vimeocdn.com
 
+#Tech
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-KEYWORD,gitlab
 DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
 DOMAIN-KEYWORD,stackoverflow.com
 DOMAIN-SUFFIX,pinboard.in
 DOMAIN-SUFFIX,techcrunch.com
@@ -205,6 +278,7 @@ DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,pinterest.com
 DOMAIN-SUFFIX,yacd.haishan.me
 
+# > Google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
@@ -226,7 +300,6 @@ DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,godoc.org
 DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,itasoftware.com
@@ -247,22 +320,64 @@ DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
 DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,usercontent.dev
 
-# Fastly
-IP-CIDR,23.235.32.0/20
-IP-CIDR,43.249.72.0/22
-IP-CIDR,103.244.50.0/24
-IP-CIDR,167.82.160.0/20
-IP-CIDR,167.82.128.0/20
-IP-CIDR,167.82.0.0/17
-IP-CIDR,157.52.64.0/18
-IP-CIDR,167.82.224.0/20
-IP-CIDR,172.111.64.0/18
-IP-CIDR,185.31.16.0/22
-IP-CIDR,199.27.72.0/21
-IP-CIDR,151.101.0.0/16
-IP-CIDR,104.156.80.0/20
-IP-CIDR,103.245.224.0/24
-IP-CIDR,103.245.222.0/23
+#airport
+DOMAIN,arkdy.com
+DOMAIN,api.pay.pm
+DOMAIN,gayv.gay
+DOMAIN,pptp.cloud
+DOMAIN-KEYWORD,getluffy
+DOMAIN-KEYWORD,maying
+DOMAIN-KEYWORD,naixisubs
+DOMAIN-KEYWORD,sttsub
+DOMAIN-KEYWORD,oooiooo
+DOMAIN-KEYWORD,selaplane
+DOMAIN-KEYWORD,taggood
+DOMAIN-KEYWORD,tagonline
+DOMAIN-KEYWORD,newsubscribe
+DOMAIN-KEYWORD,tencentcs
+DOMAIN-KEYWORD,xdmyyds
+DOMAIN-KEYWORD,bmkj
+DOMAIN-KEYWORD,dler
+DOMAIN-KEYWORD,immtel
+DOMAIN-KEYWORD,rerongtuliao
+DOMAIN-KEYWORD,mgnet
+DOMAIN-KEYWORD,fnf
+DOMAIN-KEYWORD,cordcloud
+DOMAIN-KEYWORD,bityun
+DOMAIN-KEYWORD,renzhesub
+DOMAIN-KEYWORD,tannel
+DOMAIN-KEYWORD,nxtlnodes
+DOMAIN-KEYWORD,flowercloud
+DOMAIN-KEYWORD,losadhwselfff2332dasd
+DOMAIN-KEYWORD,naikosub
+DOMAIN-KEYWORD,mojie
+DOMAIN-KEYWORD,oxycontin
+DOMAIN-KEYWORD,creamdata
+DOMAIN-KEYWORD,glados
+DOMAIN-KEYWORD,stc-spadesdns
+DOMAIN-KEYWORD,urltosub
+DOMAIN-KEYWORD,mymonocloud
+DOMAIN-KEYWORD,dingyue
+DOMAIN-KEYWORD,maikr
+DOMAIN-KEYWORD,kelecloud
+DOMAIN-KEYWORD,meimei1314
+DOMAIN-KEYWORD,miaomiaowu
+DOMAIN-KEYWORD,798ying
+DOMAIN-SUFFIX,sublink.me
+DOMAIN-SUFFIX,sooe.win
