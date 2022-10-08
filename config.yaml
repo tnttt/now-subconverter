@@ -4,6 +4,11 @@ allow-lan: false
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+cfw-latency-timeout: 3000
+cfw-latency-url: http://cp.cloudflare.com/generate_204
+cfw-conn-break-strategy: true
 secret: ""
 dns:
   enable: true
