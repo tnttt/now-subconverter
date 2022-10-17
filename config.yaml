@@ -15,18 +15,24 @@ dns:
   ipv6: false
   listen: 127.0.0.1:8853
   default-nameserver:
+    - 117.50.10.10
     - 119.29.29.29
     - 114.114.114.114
     - 223.5.5.5
+    - 223.6.6.6
   nameserver:
     - https://223.6.6.6/dns-query
     - https://rubyfish.cn/dns-query
     - https://dns.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
-    - https://1.0.0.1/dns-query
+    - https://doh.dns.sb/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.twnic.tw/dns-query
     - https://dns.rubyfish.cn/dns-query
     - https://public.dns.iij.jp/dns-query
-    - tls://8.8.4.4
+    - https://1.0.0.1/dns-query
+    - tls://8.8.4.4:853
   fallback-filter:
     geoip: true
     ipcidr:
