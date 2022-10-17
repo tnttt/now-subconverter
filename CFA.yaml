@@ -9,7 +9,7 @@ secret: ''
 dns:
     enable: true
     ipv6: false
-    default-nameserver: [119.29.29.29, 223.5.5.5, 114.114.114.114]
+    default-nameserver: [117.50.10.10, 119.29.29.29, 114.114.114.114, 223.5.5.5, 223.6.6.6]
     enhanced-mode: redir-host
     fake-ip-range: 198.18.0.1/16
     use-hosts: true
