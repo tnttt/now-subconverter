@@ -1,3 +1,5 @@
+#Kill AD
+DOMAIN-SUFFIX,ad.com
 # Blocklist 黑名单
 DOMAIN-SUFFIX,kuaizip.com
 DOMAIN-SUFFIX,mackeeper.com
