@@ -350,7 +350,8 @@ DOMAIN-KEYWORD,selaplane
 DOMAIN-KEYWORD,taggood
 DOMAIN-KEYWORD,tagonline
 DOMAIN-KEYWORD,newsubscribe
-DOMAIN-KEYWORD,tencentcs
+DOMAIN-SUFFIX,gz.apigw.tencentcs.com
+DOMAIN-SUFFIX,sh.apigw.tencentcs.com
 DOMAIN-KEYWORD,xdmyyds
 DOMAIN-KEYWORD,bmkj
 DOMAIN-KEYWORD,dler
