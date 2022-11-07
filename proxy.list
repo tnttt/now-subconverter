@@ -27,7 +27,6 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 
 # common site
-DOMAIN,services.googleapis.cn
 DOMAIN,google.com
 DOMAIN-SUFFIX,google.cn
 DOMAIN-SUFFIX,googleapis.cn
