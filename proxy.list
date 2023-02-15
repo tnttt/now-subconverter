@@ -77,6 +77,7 @@ DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,bing.com
 
 #crypto
 DOMAIN-SUFFIX,bitbank.cc
