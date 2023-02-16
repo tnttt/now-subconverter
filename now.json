@@ -6,7 +6,7 @@
     "builds": [
         {
             "src": "sub-web/**",
-            "use": "@vercel/build-utils"
+            "use": "@vercel/static-build"
         },
         {
             "src": "subconverter/subconverter.exe",
